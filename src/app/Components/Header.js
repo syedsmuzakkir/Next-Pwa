@@ -20,9 +20,9 @@ const Header = () => {
 
             <header className=" relative shadow-lg px-3 py-2">
                 <nav className="flex justify-between">
-                    <div className="w-[130px] md:w-[200px] flex items-center">
-                        {/* <img src="https://i.postimg.cc/MZCBXb1K/logo.png" > */}
-                        <img src='https://i.postimg.cc/MZCBXb1K/logo.png' />
+                        <div className="w-[130px] md:w-[200px] flex items-center">
+                        {/* Local app icon (replaced external image) */}
+                        <img src='/icons/app-icon.svg' alt='App logo' className='h-10 w-auto' />
                     </div>
                     <div className="flex items-center gap-3">
                         <div className="navLinks duration-500 absolute md:static md:w-auto w-full md:h-auto h-[85vh] bg-white flex md:items-center gap-[1.5vw] top-[100%] left-[-100%] px-5 md:py-0 py-5 ">

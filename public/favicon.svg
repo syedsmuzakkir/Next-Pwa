@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Simple SVG favicon: a small square with gradient and N letter -->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#2b68e0" />
+      <stop offset="100%" stop-color="#e710ea" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="10" fill="url(#g2)" />
+  <text x="50%" y="58%" text-anchor="middle" fill="#fff" font-size="36" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-weight="700">N</text>
+</svg>
