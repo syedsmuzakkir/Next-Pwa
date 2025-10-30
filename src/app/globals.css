@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --brand: 37, 99, 235; /* Tailwind blue-600 rgb(37,99,235) */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,4 +31,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  /* brand utilities */
+  .bg-brand { background-color: rgb(var(--brand)) }
+  .text-brand { color: rgb(var(--brand)) }
+  .border-brand { border-color: rgb(var(--brand)) }
 }
