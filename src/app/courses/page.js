@@ -2,12 +2,12 @@ import { courses } from '../../data/courses'
 
 export default function COURSES() {
   return (
-    <main className="min-h-screen p-8">
+    <main className="min-h-screen p-4">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold mb-6 text-brand">Courses</h2>
+        <h2 className="text-3xl font-bold mb-4 text-brand">Courses</h2>
         <p className="text-gray-600 mb-6">Explore our curated IT courses — from beginner to advanced. Click a course to view details.</p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {courses.map(course => (
             <article key={course.id} className="border rounded-lg p-4 shadow-sm bg-white hover:shadow-md transition-shadow">
               <div className="flex items-start gap-4">
